@@ -83,7 +83,7 @@ WIN_COMBINATIONS = [
         human_play_human
       end
     end
-    
+
   end
 
   def computer_play_computer
