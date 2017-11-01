@@ -10,7 +10,6 @@ class Players::Computer
       else
         computer_move = (1 + rand(8))
       end
-      end
     end
       computer_move.to_s
   end
