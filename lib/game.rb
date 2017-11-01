@@ -132,14 +132,14 @@ WIN_COMBINATIONS = [
     puts "3. You vs your pal\n"
     puts "\or type 'quit' to exit"
     new_input = gets.strip
-      until new_input == "quit"
         if new_input == "1"
           computer_play_computer
         elsif new_input == "2"
           human_play_computer
         elsif new_input == "3"
           human_play_human
-        end
+        elsif new_input == "quit"
+          play
     end
   end
 
