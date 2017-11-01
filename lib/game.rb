@@ -139,7 +139,7 @@ WIN_COMBINATIONS = [
         elsif new_input == "3"
           human_play_human
         elsif new_input == "quit"
-          play
+          start
     end
   end
 
