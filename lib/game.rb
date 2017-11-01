@@ -54,7 +54,7 @@ WIN_COMBINATIONS = [
       puts "Woops! That space is already taken!"
       turn
     end
-    
+
   end
 
   def play
@@ -70,9 +70,10 @@ WIN_COMBINATIONS = [
       0 to watch computers duke it out
       1 to play against the computer
       2 to play with yourself & a pal\n"
-    puts "\nYou can always enter 'quit' to exit"
+    puts "\nYou can always enter 'quit' to return to menu"
 
     input = gets.strip
+    
     until input == "quit"
       if input == "0"
         computer_play_computer
@@ -80,10 +81,9 @@ WIN_COMBINATIONS = [
         human_play_computer
       elsif input == "2"
         human_play_human
-      elsif input == "wargames"
-        wargames
       end
     end
+    
   end
 
   def computer_play_computer
