@@ -73,7 +73,7 @@ WIN_COMBINATIONS = [
     puts "\nYou can always enter 'quit' to return to menu"
 
     input = gets.strip
-    
+
     until input == "quit"
       if input == "0"
         computer_play_computer
