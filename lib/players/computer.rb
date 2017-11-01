@@ -8,11 +8,8 @@ class Players::Computer
       if board.valid_move?(corner)
         computer_move = corner
       else
-        middle.detect do |space|
-          if board.valid_move?(space)
-            computer_move = space
-          end
-        end
+        computer_move = (1 + rand(8))
+      end
       end
     end
       computer_move.to_s
