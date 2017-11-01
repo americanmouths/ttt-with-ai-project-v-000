@@ -131,7 +131,7 @@ WIN_COMBINATIONS = [
     puts "1. Computer vs computer"
     puts "2. You vs computer"
     puts "3. You vs your pal\n"
-    puts "\or type 'quit' to exit"
+    puts "\or type 'quit' to return to menu"
     new_input = gets.strip
         if new_input == "1"
           computer_play_computer
