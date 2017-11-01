@@ -1,5 +1,3 @@
-require 'pry'
-
 class Game
 include Players
 attr_accessor :board, :player_1, :player_2
