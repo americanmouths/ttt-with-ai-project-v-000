@@ -7,7 +7,7 @@ class Players::Computer
     corners.detect do |corner|
       if board.valid_move?(corner)
         computer_move = corner
-      else
+      elsif !board.valid_move?(corner)
         computer_move = (1 + rand(8))
       end
     end
